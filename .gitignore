@@ -2,3 +2,4 @@ planetsdataset/
 .ipynb_checkpoints/
 moon/
 *.joblib
+.DS_Store
