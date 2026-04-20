@@ -4,7 +4,6 @@ import tensorflow as tf
 
 
 def get_dataset_dirs(dataset_dir: str):
-  """Return train, validation, and test directory paths."""
   train_dir = os.path.join(dataset_dir, "training")
   valid_dir = os.path.join(dataset_dir, "validation")
   test_dir = os.path.join(dataset_dir, "test")
@@ -12,7 +11,6 @@ def get_dataset_dirs(dataset_dir: str):
 
 
 def get_class_names(train_dir: str):
-  """Read class folder names from the training directory."""
   class_names = sorted(
       [
           folder_name
